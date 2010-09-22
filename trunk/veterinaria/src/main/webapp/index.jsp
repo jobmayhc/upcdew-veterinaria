@@ -13,22 +13,20 @@
     <title>.:: Veterinaria PetShop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
     <link rel="stylesheet" type="text/css" href="cmn/style/upc_main.css" />
-<style type="text/css">
-<!--
-.style1 {font-size: 11.5px}
-.style3 {color: #333333}
--->
-</style>
+
+    
 </head>
 
 <body>
-    
+
+    <div id="header">
+            <div class="inner_copy"><a href="http://www.greatdirectories.org/">web directories</a><a href="http://www.bestfreetemplates.info/">free CSS templates</a></div>
+
     <div id="menu">
-        <div class="inner_copy"><a href="http://www.greatdirectories.org/">web directories</a><a href="http://www.bestfreetemplates.info/">free CSS templates</a></div>
+        
 	    <ul>
-                <li><a href="index.jsp" class="but1">Inicio</a></li>
-                <li><a href="reservaservicios.jsp" class="but2 active2">Services</a></li>
-                <li><a href="" class="but3">Productos</a></li>
+                <li><a href="index.jsp" class="but1 active1">Inicio</a></li>
+                <li><a href="reservaservicios.jsp" class="but2">Servicios</a></li>
                 <li><a href="consultar.html" class="but4">Consultar</a></li>
                 <li><a href="" class="but5">Galeria</a></li>
                 <li><a href="" class="but6">Contactos</a></li>
@@ -37,11 +35,11 @@
           <form action="#">
             <span>Search</span>
             <input name="text" type="text" />
-            <a href="#"><img src="images/search.jpg" alt="" /></a>
+            <a href="#"><img src="cmn/img/search.jpg" alt="" /></a>
           </form>
         </div>
       </div>
-
+</div>
 <div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
 <div class="inner_copy">
     <a href="http://www.bestfreetemplates.org/">free templates</a><a href="http://www.bannermoz.com/">banner templates</a></div>
