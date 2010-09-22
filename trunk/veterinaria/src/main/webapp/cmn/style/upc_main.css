@@ -311,3 +311,89 @@ font-size:11px
 	text-align: left;
 	border-right-width: thin;
 }
+
+/* ----------------------- Agregar ----------------------- */
+table
+{
+	font-size: 11px;
+	font-family: verdana, arial;
+}
+
+
+/* TABLA DE DATOS */
+table.lista, .lista
+{
+	border-collapse: collapse;
+	background-color: #b0afaf;
+}
+
+table.lista th, .listaHeader
+{
+	font-weight: bold;
+	font-size: 8pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #d0ccaf;
+	padding-bottom: 1px;
+	color: black;
+	padding-top: 1px;
+	font-family: Verdana, arial;
+	height: 25px;
+	background-color: #dedbdb;
+	text-align: center;
+}
+
+.listaRow11
+{
+	font-size: 8pt;
+	background-image: url(../../../cmn/cmn/img/lst_row.gif);
+	font-family: Arial;
+	height:20px;
+}
+
+.listaRow
+{
+	font-size: 8pt;
+	background-image: url(../../../cmn/cmn/img/lst_row.gif);
+	border-bottom: black 3px solid;
+	font-family: Arial;
+	height: 20px;
+}
+
+.listaRowWhite
+{
+	font-size: 8pt;
+	background-color: white;
+	border-bottom: black 3px solid;
+	font-family: Arial;
+	height: 20px;
+}
+
+.listaAlterno, .Alterno
+{
+	height:20px;
+	font-size: 8pt;
+	background-image: url(../../../cmn/cmn/img/lst_row.gif);
+	font-family: Arial;
+}
+
+table.lista td /* Estilo para todas las filas.....ItemStyle y AlternateItemStyle*/
+{
+	border-bottom:1px solid #E0E0D0;
+	padding: 1px 2px 0px 2px;
+		height:20px;
+}
+
+.listaPag, .PagLista
+{
+	border-top: #d0ccaf 1px solid;
+	font-weight: bold;
+	color: #000000;
+	background-color: #dedbdb;
+	text-align: right;
+	padding-bottom:5px;
+}
+.leyenda
+{
+	font-size: 8pt;
+	font-family: Arial;
+}

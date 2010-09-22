@@ -22,7 +22,27 @@
 </head>
 
 <body>
-	<div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
+    
+    <div id="menu">
+        <div class="inner_copy"><a href="http://www.greatdirectories.org/">web directories</a><a href="http://www.bestfreetemplates.info/">free CSS templates</a></div>
+	    <ul>
+                <li><a href="index.jsp" class="but1">Inicio</a></li>
+                <li><a href="reservaservicios.jsp" class="but2 active2">Services</a></li>
+                <li><a href="" class="but3">Productos</a></li>
+                <li><a href="" class="but4">specials</a></li>
+                <li><a href="" class="but5">Galeria</a></li>
+                <li><a href="" class="but6">Contactos</a></li>
+            </ul>
+	    <div id="search">
+          <form action="#">
+            <span>Search</span>
+            <input name="text" type="text" />
+            <a href="#"><img src="images/search.jpg" alt="" /></a>
+          </form>
+        </div>
+      </div>
+
+<div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
 <div class="inner_copy">
     <a href="http://www.bestfreetemplates.org/">free templates</a><a href="http://www.bannermoz.com/">banner templates</a></div>
 </div>
