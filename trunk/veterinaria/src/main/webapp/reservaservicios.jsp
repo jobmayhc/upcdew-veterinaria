@@ -80,12 +80,9 @@
 	</div>
 	<div id="footer">																																																																																																																																																																																																																																																																																																																		<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
 		<ul>
-			<li><a href="index.html">home page</a>|</li>
-			<li><a href="index2.html">services</a>|</li>
-			<li><a href="index2.html">new products</a>|</li>
-			<li><a href="index2.html">specials</a>|</li>
-			<li><a href="index2.html">photo gallery</a>|</li>
-			<li><a href="index2.html">contacts</a></li>
+			<li><a href="index.jsp">Inicio </a>|</li>
+			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
+			<li><a href="consultar.html">Consultar</a>| Buscar  pareja |</li>
 		</ul>
 		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" title="Best Free Templates" target="_blank" class="bft">BFT</a> </p>
 	</div>

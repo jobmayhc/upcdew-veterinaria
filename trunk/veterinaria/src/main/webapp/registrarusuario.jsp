@@ -154,9 +154,9 @@
 	<div id="footer">																																																																																																																																																																											<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
 		<ul>
 			<li><a href="index.jsp">Inicio </a>|</li>
-			<li><a href="index2.html">Servicios</a>|</li>
-			<li><a href="index2.html">Productos</a>| Buscar  pareja |</li>
-		    <li><a href="index2.html">Contacto</a></li>
+			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
+			<li><a href="consultar.html">Consultar</a>| Buscar  pareja |</li>
+		    <li><a href="">Contacto</a></li>
 		</ul>
 		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" title="Best Free Templates" target="_blank" class="bft">Group UPC </a> </p>
 	</div>
