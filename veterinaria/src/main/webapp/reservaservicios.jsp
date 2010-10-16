@@ -17,25 +17,8 @@
     </head>
 <body>
 	<div id="header">
-            <div class="inner_copy"><a href="http://www.greatdirectories.org/">web directories</a><a href="http://www.bestfreetemplates.info/">free CSS templates</a></div>
-		<div id="menu">
-                        <ul>
-                            <li><a href="index.jsp" class="but1">Inicio</a></li>
-                            <li><a href="reservaservicios.jsp" class="but2 active2">Servicios</a></li>
-                            <li><a href="consultar.html" class="but5">Consultar</a></li>
-                            <li><a href="" class="but6">Contactos</a></li>
-			</ul>
-			<div id="search">
-				<form action="#">
-					<span>Search</span>
-					<input type="text" />
-					<a href="#"><img src="cmn/img/search.jpg" alt="" /></a>																																																																																																																																																																																																																						<div class="inner_copy"><a href="http://www.bestfreetemplates.org/">free templates</a><a href="http://www.bannermoz.com/">banner templates</a></div>
-				</form>
-			</div>
-		</div>
-		<img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
-  	</div>
-  	<br />
+            <div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
+	<br />
 	<div id="wrapper">
 
 		<table style="width:100%" border ="0">
@@ -77,13 +60,15 @@
 		</table>
 
 	</div>
-	<div id="footer">																																																																																																																																																																																																																																																																																																																		<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
+	<div id="footer">																																																																																																																																																																																																																																																																																																																		<div class="inner_copy"><a href="http://www.beautifullife.info/"></a><a href="http://www.grungemagazine.com/"></a></div>
 		<ul>
 			<li><a href="index.jsp">Inicio </a>|</li>
 			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
-			<li><a href="consultar.html">Consultar</a>| Buscar  pareja |</li>
+			<li><a href="consultar.html">Consultar</a>|</li>
+			<li><a href="">Galeria</a>|</li>
+			<li><a href="">Contacto</a>|</li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" title="Best Free Templates" target="_blank" class="bft">BFT</a> </p>
+		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.upc.edu.pe" target="_blank">UPC</a> </p>
 	</div>
 </body>
 </html>

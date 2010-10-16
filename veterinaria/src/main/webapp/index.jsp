@@ -19,47 +19,25 @@
 
 <body>
 
-    <div id="header">
-            <div class="inner_copy"><a href="http://www.greatdirectories.org/">web directories</a><a href="http://www.bestfreetemplates.info/">free CSS templates</a></div>
+    <form action="Login" method="post">
+      <div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
 
-    <div id="menu">
-        
-	    <ul>
-                <li><a href="index.jsp" class="but1 active1">Inicio</a></li>
-                <li><a href="reservaservicios.jsp" class="but2">Servicios</a></li>
-                <li><a href="consultar.html" class="but4">Consultar</a></li>
-                <li><a href="" class="but5">Galeria</a></li>
-                <li><a href="" class="but6">Contactos</a></li>
-            </ul>
-	    <div id="search">
-          <form action="#">
-            <span>Search</span>
-            <input name="text" type="text" />
-            <a href="#"><img src="cmn/img/search.jpg" alt="" /></a>
-          </form>
-        </div>
-      </div>
-</div>
-<div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
-<div class="inner_copy">
-    <a href="http://www.bestfreetemplates.org/">free templates</a><a href="http://www.bannermoz.com/">banner templates</a></div>
-</div>
 	<div id="wrapper">
 		<div class="block">
 			<img src="cmn/img/pic.jpg" alt="" width="85" height="93" /><img src="cmn/img/title.jpg" alt="" width="191" height="23" /><br />
-			<form name="form1" method="post" action="">
+			
 
 			  <table width="230" border="0">
                 <tr>
                   <td style="width:40px;"><span class="login">Usuario</span></td>
                   <td style="width:120px;">
-                    <input type="text" name="txtUsuario" style="width:100px;" class="txt" />
+                    <input type="text" name="username" style="width:100px;" class="txt" />
                   </td>
                 </tr>
                 <tr>
-                  <td style="width:40px;"><span class="login" >Contrasena</span></td>
+                  <td style="width:40px;"><span class="login" >Contrase&ntilde;a</span></td>
                   <td style="width:120px;">
-                    <input type="password" name="txtPassword" style="width:100px;" class="txt"" />
+                    <input type="password" name="password" style="width:100px;" class="txt"" />
                   </td>
                 </tr>
                 <tr>
@@ -79,7 +57,7 @@
 			  <br />
 			  <br />
 
-			</form>
+			
 			<p>&nbsp;</p>
 			<a href="#"></a>
 	  </div>
@@ -98,7 +76,7 @@
 		<div id="right">
 		  <div>
 		    <img src="cmn/img/title3.gif" alt="" width="379" height="35" /><br />
-				<span class="date">14 Setiembre </span>
+				<span class="date">23 Octubre </span>
 			    <p>A partir de los seis u ocho anos llega la vejez de nuestro perro y a los diez si nuestro amigo es un gato. A estas edades es conveniente hacerles un chequeo, cambiarles la dieta de mantenimiento a una especifica para su edad o problema, notaremos que pierde vista, su oido es menos agudo, su boca tiende a oler mal, sus huesos empeoran... No permitir que esto nos parezca normal, la vejez sera mas feliz si lo cuidamos mas, no permitiremos que engorde, cuidamos su corazon y retrasamos el desgaste de sus huesos.</p>
 				</div>
 			<div>
@@ -113,10 +91,16 @@
 	</div>
 	<div id="footer">																																																																																																																																																																											<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
 		<ul>
-<li><a href="index.jsp">Inicio </a>|</li>
+			<li><a href="index.jsp">Inicio </a>|</li>
 			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
-			<li><a href="consultar.html">Consultar</a>| Buscar  pareja |</li>		</ul>
-		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" title="Best Free Templates" target="_blank" class="bft">Group UPC </a> </p>
+			<li><a href="consultar.html">Consultar</a>|</li>
+			<li><a href="">Galeria</a>|</li>
+			<li><a href="">Contacto</a>|</li>		
+		</ul>
+		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.upc.edu.pe" target="_blank"> UPC </a> </p>
 	</div>
+
+        </form>
+
 </body>
 </html>
