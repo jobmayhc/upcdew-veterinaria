@@ -49,15 +49,7 @@
                 <tr>
                   <td colspan="2"><a href="registrarusuario.jsp" class="visited">Registrese</a></td>
                 </tr>
-              </table>
-
-
-			  <br />
-			  <br />
-			  <br />
-			  <br />
-
-			
+              </table>			
 			<p>&nbsp;</p>
 			<a href="#"></a>
 	  </div>
