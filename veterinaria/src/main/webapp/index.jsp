@@ -31,7 +31,7 @@
                 <tr>
                   <td style="width:40px;"><span class="login">Usuario</span></td>
                   <td style="width:120px;">
-                    <input type="text" name="username" style="width:100px;" class="txt" />
+                    <input type="text" name="email" style="width:100px;" class="txt" />
                   </td>
                 </tr>
                 <tr>
@@ -49,7 +49,15 @@
                 <tr>
                   <td colspan="2"><a href="registrarusuario.jsp" class="visited">Registrese</a></td>
                 </tr>
-              </table>			
+              </table>
+
+
+			  <br />
+			  <br />
+			  <br />
+			  <br />
+
+			
 			<p>&nbsp;</p>
 			<a href="#"></a>
 	  </div>
