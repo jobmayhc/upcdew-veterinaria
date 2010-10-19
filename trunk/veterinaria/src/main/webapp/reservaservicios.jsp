@@ -17,9 +17,11 @@
     </head>
 <body>
 	<div id="header">
-            <div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
-	<br />
-	<div id="wrapper">
+            <div id="header">
+            <p><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" /></p>
+            <p>&nbsp;</p>
+            <h1>Bienvenido ${usuario.nombres} ${usuario.apellidos}</h1>
+            <div id="wrapper">
 
 		<table style="width:100%" border ="0">
 		    <tr>
