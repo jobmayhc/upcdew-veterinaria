@@ -7,12 +7,9 @@ package pe.edu.upc.dew.veterinaria.service;
 
 import pe.edu.upc.dew.veterinaria.model.Usuario;
 
-/**
- *
- * @author alumno
- */
 public interface UsuarioService {
     
     public Usuario login (String email, String password);
 
+   
 }
