@@ -1,7 +1,7 @@
 <%-- 
     Document   : registrarusuario
     Created on : 19/09/2010, 08:57:19 PM
-    Author     : Daniel
+    Author     : Fernando Lopez
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -30,7 +30,7 @@
 </head>
 <body>
 	<div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
-<div class="inner_copy"><a href="http://www.bestfreetemplates.org/"></a><a href="http://www.bannermoz.com/">banner templates</a></div>
+<div class="inner_copy"></div>
 </div>
 	<div id="wrapper">
 		<div class="block">
