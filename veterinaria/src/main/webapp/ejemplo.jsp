@@ -1,8 +1,3 @@
-<%-- 
-    Document   : ejemplo
-    Created on : 18/10/2010, 04:27:17 PM
-    Author     : alumno
---%>
 
 <%@page contentType="text/html" pageEncoding="windows-1252"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
