@@ -150,7 +150,7 @@
 			<li><a href="">Galeria</a>|</li>
 		    <li><a href="">Contacto</a></li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.upc.edu.pe" target="_blank" > UPC </a> </p>
+		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
 </body>
 

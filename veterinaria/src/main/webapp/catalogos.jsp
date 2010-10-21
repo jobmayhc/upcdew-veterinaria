@@ -10,7 +10,7 @@
 
 <html>
 <head>
-<title>Cat Care - Home</title>
+<title>.:: Veterinaria PetShop</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
 <link rel="stylesheet" type="text/css" href="cmn/style/upc_main.css" />
 </head>
@@ -58,7 +58,7 @@
 			<li><a href="index2.html">photo gallery</a>|</li>
 			<li><a href="index2.html">contacts</a></li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" title="Best Free Templates" target="_blank" class="bft">BFT</a> </p>
+		<p> </p>
 	</div>
 </body>
 </html>

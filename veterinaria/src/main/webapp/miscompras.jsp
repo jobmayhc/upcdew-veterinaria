@@ -1,8 +1,4 @@
-<%-- 
-    Document   : miscompras
-    Created on : 21/09/2010, 07:30:39 PM
-    Author     : Daniel
---%>
+
 
 <%@page contentType="text/html" pageEncoding="windows-1252"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -10,7 +6,7 @@
 
 <html>
     <head>
-    <title>.:: Clinica Veterinaria</title>
+    <title>.:: Veterinaria PetShop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
     <link rel="stylesheet" type="text/css" href="cmn/style/upc_main.css" />
     <script type="text/javascript" language="javascript" src="cmn/script/upc_main.js"></script>
@@ -53,7 +49,7 @@
 			<li><a href="">Galeria</a>|</li>
 			<li><a href="">Contacto</a></li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. Design by <a href="http://www.upc.edu.pe" target="_blank">UPC</a> </p>
+		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
 </body>
 </html>
