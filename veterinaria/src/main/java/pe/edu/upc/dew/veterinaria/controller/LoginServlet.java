@@ -33,17 +33,9 @@ public class LoginServlet extends HttpServlet {
         UsuarioService usuarioService = new UsuarioServiceImpl();
         Usuario usuario = usuarioService.login(email, password);
 
-
-        //  Setear el model en el view
         HttpSession session = request.getSession();
         session.setAttribute("usuario", usuario);
 
-//        req.setAttribute("usuario", usuario);
-      //  request.setAttribute("mensaje", "Hola estos es JSP-EL");
-
-
-
-        //Dispatch a la siguiente vista
         request.getRequestDispatcher("reservaservicios.jsp").forward(request, response);
 
         
