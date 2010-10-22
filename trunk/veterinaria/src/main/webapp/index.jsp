@@ -18,8 +18,7 @@
 </head>
 
 <body>
-    
-    <form action="Login" method="post">
+        <form action="Login" method="post">
       <div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
 
 	<div id="wrapper">
