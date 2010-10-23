@@ -345,18 +345,19 @@ table.lista th, .listaHeader
 .listaRow11
 {
 	font-size: 8pt;
-	background-image: url(../../../cmn/cmn/img/lst_row.gif);
-	font-family: Arial;
+        background-color: #FEFFF8;
+        font-family: Arial;
 	height:20px;
 }
 
 .listaRow
 {
 	font-size: 8pt;
-	background-image: url(../../../cmn/cmn/img/lst_row.gif);
+	background-color: #ccccff;
 	border-bottom: black 3px solid;
-	font-family: Arial;
+	font-family: Verdana;
 	height: 20px;
+        
 }
 
 .listaRowWhite

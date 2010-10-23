@@ -53,12 +53,12 @@
         oProducto = l.get(x);
 
 %>
-                     <tr class="listaHeader">
+                     <tr class="listaRow">
 		        <td style="width:80px">Eliminar</td>
 		        <td style="width:320px"><span><%=oProducto.getCodigo()%> - <%=oProducto.getNombre()%></span></td>
 		        <td style="width:120px"><span><%=oProducto.getPrecio()%></span></td>
 		        <td style="width:120px"><span><%=oProducto.getIgv()%></span></td>
-		        <td style="width:120px"><span>Sub Total</span></td>
+		        <td style="width:120px"><span></span></td>
 		    </tr>
 
                     <% } }%>
