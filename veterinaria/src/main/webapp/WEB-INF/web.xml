@@ -9,6 +9,15 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReservaServlet</servlet-name>
+        <servlet-class>pe.edu.upc.dew.veterinaria.controller.ReservaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReservaServlet</servlet-name>
+        <url-pattern>/Reserva</url-pattern>
+    </servlet-mapping>
     
     <session-config>
         <session-timeout>
