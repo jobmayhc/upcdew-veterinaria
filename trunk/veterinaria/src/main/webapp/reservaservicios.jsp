@@ -14,12 +14,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
     <link rel="stylesheet" type="text/css" href="cmn/style/upc_main.css" />
     <script type="text/javascript" language="javascript" src="cmn/script/upc_main.js"></script>
+
+
+
+
     </head>
 <body>
-	<div id="header">
-            <div id="header">
+
+    <form name="frmServicios" method="post" action="ReservaServlet" >
+         <input type="hidden" name="txtCodigo">
+        <input type="hidden" name="txtNombre">
+        <input type="hidden" name="txtPrecio">
+        
+        <div id="header">
             <p><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" /></p>
-            <p>&nbsp;</p>
+        </div>
             <h1>Bienvenido ${usuario.nombres} ${usuario.apellidos}</h1>
             <div id="wrapper">
 
@@ -27,15 +36,15 @@
 		    <tr>
 		        <td style="width:15%"></td>
 		        <td style="width:20%">
-                    <img src="cmn/servicios/serv_apariamiento.jpg" alt="Apariamiento" style="cursor:hand;" onclick="cargarMisCompras()" />
+                    <img src="cmn/servicios/serv_apariamiento.jpg" alt="Apariamiento" style="cursor:hand;" onclick="cargarMisCompras('001', 'Apariamiento', '70.00')" />
 		        </td>
 		        <td style="width:5%"></td>
 		        <td style="width:20%">
-		            <img src="cmn/servicios/serv_odontologia.jpg" alt="Odontologia" style="cursor:hand;" onclick="cargarMisCompras()" />
+		            <img src="cmn/servicios/serv_odontologia.jpg" alt="Odontologia" style="cursor:hand;" onclick="cargarMisCompras('002', 'Odontologia', '35.00')" />
 		        </td>
 		        <td style="width:5%"></td>
 		        <td style="width:20%">
-		            <img src="cmn/servicios/serv_cortepelo.jpg" alt="CortePelo" style="cursor:hand;" onclick="cargarMisCompras()" />
+		            <img src="cmn/servicios/serv_cortepelo.jpg" alt="CortePelo" style="cursor:hand;" onclick="cargarMisCompras('003', 'Corte de Pelo', '30.00')" />
 		        </td>
 		        <td style="width:15%"></td>
 		    </tr>
@@ -72,5 +81,11 @@
 		</ul>
 		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
-</body>
+
+    </form>
+
+    </body>
+
+
+
 </html>

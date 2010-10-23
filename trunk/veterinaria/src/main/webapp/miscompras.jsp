@@ -1,5 +1,5 @@
 
-
+<%@ page import ="java.util.*, pe.edu.upc.dew.veterinaria.model.*"%>
 <%@page contentType="text/html" pageEncoding="windows-1252"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
@@ -12,10 +12,12 @@
     <script type="text/javascript" language="javascript" src="cmn/script/upc_main.js"></script>
     </head>
 <body>
-	<div id="header">																																																																																																																																																																																																																														<div id="header"><img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
+
+    <div id="header">
+    <img src="cmn/img/big_photo.jpg" alt="" width="967" height="302" />
+    </div>
 	<br />
 	<div id="wrapper">
-
 	    <table style="width:800px" border ="0">
 		    <tr>
 		        <td style="width:10%"></td>
@@ -38,6 +40,29 @@
 		        <td style="width:120px"><span>Impuesto</span></td>
 		        <td style="width:120px"><span>Sub Total</span></td>
 		    </tr>
+
+                      <%
+
+    System.out.println(request.getAttribute("lstReserva"));
+
+    if(request.getAttribute("lstReserva") != null){
+     List<Producto> l =  (List<Producto>)request.getAttribute("lstReserva");
+
+   for(int x=0; x<l.size(); x++){
+       Producto oProducto = new Producto();
+        oProducto = l.get(x);
+
+%>
+                     <tr class="listaHeader">
+		        <td style="width:80px">Eliminar</td>
+		        <td style="width:320px"><span><%=oProducto.getCodigo()%> - <%=oProducto.getNombre()%></span></td>
+		        <td style="width:120px"><span><%=oProducto.getPrecio()%></span></td>
+		        <td style="width:120px"><span><%=oProducto.getIgv()%></span></td>
+		        <td style="width:120px"><span>Sub Total</span></td>
+		    </tr>
+
+                    <% } }%>
+
 		</table>
 
 	</div>
@@ -51,5 +76,6 @@
 		</ul>
 		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
+    
 </body>
 </html>
