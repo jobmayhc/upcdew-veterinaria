@@ -89,8 +89,7 @@
 		</div>
 	</div>
 	<div id="footer">																																																																																																																																																																											<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
-		<ul>
-			<li><a href="index.jsp">Inicio </a>|</li>
+		<ul>    <li><a href="index.jsp">Inicio </a>|</li>
 			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
 			<li><a href="consultar.html">Consultar</a>|</li>
 			<li><a href="">Galeria</a>|</li>
