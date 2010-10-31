@@ -66,6 +66,17 @@
 		</ul>
 		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
+
+    <h1><span>Mi Perfil</span></h1>
+
+
+        <display:table name="${listaservicios}" class="mGrid"  >
+            <display:column property="servicio" title="Servicio"/>
+            <display:column property="precioCosto" title="Precio Costo"/>
+            <display:column property="precioVenta" title="Precio Venta"/>
+            <display:column property="estado" title="Estado"/>
+            <display:caption>Personas con las que compartira el grupo</display:caption>
+        </display:table>
 </body>
 
 </html>

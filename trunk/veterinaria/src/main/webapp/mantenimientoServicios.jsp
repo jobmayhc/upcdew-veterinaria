@@ -48,7 +48,46 @@
         </p>
 	    <form name="form2" method="post" action="">
           <p class="style10">Registrar nuevo servicio: </p>
-        </form>
+          <table width="297" border="0" cellpadding="5" cellspacing="5" bgcolor="#CCCCCC">
+            <tr>
+              <td width="101">Servicio</td>
+              <td width="180"><label>
+                <input type="text" name="textfield">
+              </label></td>
+            </tr>
+            <tr>
+              <td>Precio costo </td>
+              <td><label>
+                <input type="text" name="textfield2">
+              </label></td>
+            </tr>
+            <tr>
+              <td>Precio venta </td>
+              <td><label>
+                <input type="text" name="textfield3">
+              </label></td>
+            </tr>
+            <tr>
+              <td>Estado</td>
+              <td><label>
+                <select name="select">
+                  <option>Activado</option>
+                  <option>Desactivado</option>
+                </select>
+                <br>
+                <br>
+              </label></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><label>
+                <input type="submit" name="Submit" value="Agregar">
+              </label></td>
+            </tr>
+          </table>
+          <p class="style10">&nbsp;</p>
+          <p class="style10">&nbsp;</p>
+	    </form>
       </div>
 		</div>
 	<div id="footer">																																																																																																																																																																											<div class="inner_copy"><a href="http://www.beautifullife.info/">beautiful</a><a href="http://www.grungemagazine.com/">grunge</a></div>
