@@ -93,7 +93,8 @@
 			<li><a href="reservaservicios.jsp">Servicios</a>|</li>
 			<li><a href="consultar.html">Consultar</a>|</li>
 			<li><a href="">Galeria</a>|</li>
-			<li><a href="">Contacto</a>|</li>		
+			<li><a href="">Contacto</a>|</li>
+                        <li><a href="administrador.jsp">Administrador</a>|</li>
 		</ul>
 		<p>Copyright &copy;. All rights reserved. </p>
 	</div>
