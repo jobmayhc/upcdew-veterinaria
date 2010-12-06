@@ -1,40 +1,48 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package pe.edu.upc.dew.veterinaria.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- *
- * @author alumno
- */
 public class Usuario {
 
-    private String email;
+    private String codigo;
+    private String usuario;
     private String password;
-    private String nombres;
-    private String apellidos;
-    private List<Rol> roles;
+    private String passwordconfirma;
+    private String nombre;
+    private String apepaterno;
+    private String apematerno;
+    private String direccion;
+    private String telefono;
+    private String email;
 
-
-    public Usuario(){
-        this.roles = new ArrayList<Rol>();
+    public String getApematerno() {
+        return apematerno;
     }
 
-    public List<Rol> getRoles() {
-        return roles;
+    public void setApematerno(String apematerno) {
+        this.apematerno = apematerno;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getApepaterno() {
+        return apepaterno;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setApepaterno(String apepaterno) {
+        this.apepaterno = apepaterno;
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     public String getEmail() {
@@ -45,12 +53,12 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getNombres() {
-        return nombres;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getPassword() {
@@ -61,12 +69,28 @@ public class Usuario {
         this.password = password;
     }
 
-//    public void setUsername(String string) {
-//        throw new UnsupportedOperationException("Not yet implemented");
-//    }
+    public String getPasswordconfirma() {
+        return passwordconfirma;
+    }
 
-    
-    
-    
+    public void setPasswordconfirma(String passwordconfirma) {
+        this.passwordconfirma = passwordconfirma;
+    }
 
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+     
 }
