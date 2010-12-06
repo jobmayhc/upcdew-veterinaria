@@ -272,12 +272,12 @@ font-size:11px
 	font-size: 12px;
 	color: #2c436a;
 	font-family: Arial;
-} 
+}
 
 .btn
-{ 
+{
 	font-size: 12px;
-	font-family: arial; 
+	font-family: arial;
 	height:16px;
 	background-color: #DDDBC9; /*B5CBDE; */
 	background-image: url(../../cmn/img/button.jpg);
@@ -292,12 +292,12 @@ font-size:11px
 }
 
 .btn A, .btn A:visited      /* Menu para la lista ordenar|filtrar|buscar|imprimir|exportar */
-{ 
+{
 	color:#003366;
 	text-decoration:none;
 }
 
-.txt, SELECT
+/*.txt, SELECT
 {
 	border-top-width: thin;
 	padding-left: 5px;
@@ -310,7 +310,7 @@ font-size:11px
 	background-color: #ffffff;
 	text-align: left;
 	border-right-width: thin;
-}
+}*/
 
 /* ----------------------- Agregar ----------------------- */
 table
@@ -331,9 +331,9 @@ table.lista th, .listaHeader
 {
 	font-weight: bold;
 	font-size: 8pt;
-	border-bottom-width: 1px;
+	/*border-bottom-width: 1px;*/
 	border-bottom-color: #d0ccaf;
-	padding-bottom: 1px;
+	/*padding-bottom: 1px;*/
 	color: black;
 	padding-top: 1px;
 	font-family: Verdana, arial;
@@ -357,7 +357,7 @@ table.lista th, .listaHeader
 	border-bottom: black 3px solid;
 	font-family: Verdana;
 	height: 20px;
-        
+
 }
 
 .listaRowWhite
@@ -379,19 +379,19 @@ table.lista th, .listaHeader
 
 table.lista td /* Estilo para todas las filas.....ItemStyle y AlternateItemStyle*/
 {
-	border-bottom:1px solid #E0E0D0;
-	padding: 1px 2px 0px 2px;
-		height:20px;
+	/*border-bottom:1px solid #E0E0D0;*/
+
+
 }
 
 .listaPag, .PagLista
 {
-	border-top: #d0ccaf 1px solid;
+	border-top: #d0ccaf solid;
 	font-weight: bold;
 	color: #000000;
 	background-color: #dedbdb;
 	text-align: right;
-	padding-bottom:5px;
+	/*padding-bottom:5px;*/
 }
 .leyenda
 {
@@ -431,13 +431,13 @@ table.lista td /* Estilo para todas las filas.....ItemStyle y AlternateItemStyle
 }
 .mGrid .pgr table
 {
-    margin: 5px 0;
+    margin: 1px 0;
     width: 10px;
 }
 .mGrid .pgr td
 {
     border-width: 0;
-    padding: 0 6px;
+    padding: 0 1px;
     border-left: solid 1px #666;
     font-weight: bold;
     color: #fff;
@@ -452,4 +452,55 @@ table.lista td /* Estilo para todas las filas.....ItemStyle y AlternateItemStyle
 {
     color: #000;
     text-decoration: none;
+}
+
+
+.lblFrm
+{
+	padding:1px;
+	vertical-align: text-bottom ;
+	border-bottom: lightblue 1px inset;
+	height:22px;
+}
+
+.txt, SELECT
+{
+	vertical-align:bottom;
+	padding-left: 3px;
+	padding-top: 3px;
+	font-family: arial, verdana;
+	background-color: #ffffff;
+	text-align: left;
+	border-top:2px;
+	height: 18px;
+	text-align: left;
+}
+
+.txtupper
+{
+	text-transform:uppercase;
+	vertical-align:bottom;
+	padding-left: 3px;
+	padding-top: 3px;
+	font-family: arial, verdana;
+	background-color: #ffffff;
+	text-align: left;
+	border-top:2px;
+	height: 18px;
+}
+
+.titBloqs
+{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #006699;
+	font-family: arial;
+	height: 18px;
+	width:150px;
+	height:18px;
+}
+.tblBloq
+{
+	background-color: #eeecdd;
 }
