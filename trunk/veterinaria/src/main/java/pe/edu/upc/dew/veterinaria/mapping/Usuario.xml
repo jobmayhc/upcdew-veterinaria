@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Usuario">
+
+    <!-- Lista de Usuarios -->
+        <resultMap id="UsuariosResult" class="pe.edu.upc.dew.veterinaria.model.Usuario">
+            <result property="Codigo" column="USU_CODIGO"/>
+            <result property="Usuario" column="USU_LOGIN"/>
+            <result property="Nombre" column="USU_NOMBRE"/>
+            <result property="ApePaterno" column="USU_APE_PATERNO"/>
+            <result property="Apeaterno" column="USU_APE_MATERNO"/>
+            <result property="Direccion" column="USU_DIRECCION"/>
+            <result property="Telefono" column="USU_TELEFONO"/>
+            <result property="Email" column="USU_MAIL"/>
+        </resultMap>
+
+        <select id="UsuariosListar" resultClass="UsuariosResult">
+            SELECT usu.USU_CODIGO, usu.USU_LOGIN, usu.USU_NOMBRE, usu.USU_APE_PATERNO, usu.USU_APE_MATERNO,
+            usu.USU_DIRECCION, usu.USU_TELEFONO, usu.USU_MAIL
+            FROM VET_USUARIO usu
+        </select>
+    <!-- FIN Lista de Usuarios -->
+
+    <!-- Insertar Usuarios -->
+    <insert id="UsuarioInsertar" parameterClass="pe.edu.upc.dew.veterinaria.model.Usuario">
+      <selectKey keyProperty="codigo"  resultClass="long">
+            SELECT VETERINARIA.SQ_ID_USUARIO.NEXTVAL FROM DUAL
+      </selectKey>
+            INSERT INTO VET_USUARIO
+                (USU_CODIGO, USU_LOGIN,
+                 USU_NOMBRE, USU_APE_PATERNO, USU_APE_MATERNO,
+                 USU_DIRECCION, USU_TELEFONO, USU_MAIL)
+            VALUES(
+                 #codigo#, #usuario#,
+                 #nombre#, #apepaterno#, #apematerno#,
+                 #direccion#, #telefono#, #email#)
+   </insert>
+   <!-- FIN Insertar Usuarios -->
+
+    <!-- Update Usuario -->
+        <update id="UsuarioUpdate" parameterClass="pe.edu.upc.dew.veterinaria.model.Usuario">
+                UPDATE VET_USUARIO
+                SET USU_LOGIN = #usuario#,
+                    USU_NOMBRE = #nombre#,
+                    USU_APE_PATERNO = #apepaterno#,
+                    USU_APE_MATERNO = #apematerno#,
+                    USU_DIRECCION = #direccion#,
+                    USU_TELEFONO = #telefono#,
+                    USU_MAIL = #email#
+                WHERE USU_CODIGO = #codigo#
+       </update>
+    <!-- FIN Update Productos -->
+
+
+</sqlMap>
