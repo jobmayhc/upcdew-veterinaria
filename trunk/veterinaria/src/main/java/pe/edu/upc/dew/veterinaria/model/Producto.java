@@ -6,38 +6,8 @@ public class Producto {
     private String nombre;
     private String descripcion;
     private String precio;
-    private String igv;
-    private String subtotal;
-    private Categoria categoria;
-
-    public String getIgv() {
-        return igv;
-    }
-
-    public void setIgv(String igv) {
-        this.igv = igv;
-    }
-
-    public String getSubtotal() {
-        return subtotal;
-    }
-
-    public void setSubtotal(String subtotal) {
-        this.subtotal = subtotal;
-    }
-    public Producto(){
-        this.categoria = new Categoria();
-    }
-
-    public Categoria getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(Categoria categoria) {
-        this.categoria = categoria;
-    }
-
-    public String getCodigo() {
+        
+   public String getCodigo() {
         return codigo;
     }
 
