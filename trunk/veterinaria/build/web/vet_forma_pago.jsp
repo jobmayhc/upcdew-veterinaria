@@ -5,7 +5,7 @@
 
 <html>
     <head>
-    <title>.:: Veterinaria PetShop</title>
+    <title>: Veterinaria PetShop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
     <link rel="stylesheet" type="text/css" href="cmn/style/upc_main.css" />
     
