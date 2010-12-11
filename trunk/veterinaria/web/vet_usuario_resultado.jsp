@@ -105,7 +105,7 @@
 			<li><a href="vet_usuario.jsp">Registrese</a>|</li>
 			<li><a href="vet_servicio.jsp">Registrar Servicio</a>|</li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. </p>
+		<p>Copyright &copy;. All right reserved. </p>
 	</div>
 </body>
 </html>
