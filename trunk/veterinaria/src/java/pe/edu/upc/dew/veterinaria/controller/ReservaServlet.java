@@ -43,8 +43,8 @@ public class ReservaServlet extends HttpServlet {
         oProducto.setNombre(nombre);
         oProducto.setPrecio(Double.parseDouble(precio));
         
-        //Categoria oCategoria = new Categoria();
-        //String catcodigo = request.getParameter("catcodigo");
+        //Categoriaa oCategoria = new Categoria();
+        //Stringa catcodigo = request.getParameter("catcodigo");
         //String catnombre = request.getParameter("catnombre");
 
         //oCategoria.setCodigo(catcodigo);
