@@ -70,7 +70,7 @@
 			<li><a href="">Galeria</a>|</li>
 			<li><a href="">Contacto</a>|</li>
 		</ul>
-		<p>Copyright &copy;. All rights reserved. </p>
+		<p>Copyright &copy;. All right reserved. </p>
 	</div>
 
     </form>
