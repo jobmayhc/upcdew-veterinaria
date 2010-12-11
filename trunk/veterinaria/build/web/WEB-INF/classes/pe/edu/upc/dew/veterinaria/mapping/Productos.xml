@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Productos">
+
+<!-- Lista de Productos -->
+<!--
+    <resultMap id="ProductosResult" class="pe.edu.upc.dew.veterinaria.model.Producto">
+    	<result property="Codigo" column="PRO_CODIGO"/>
+    	<result property="Nombre" column="PRO_NOMBRE"/>
+    	<result property="Descripcion" column="PRO_DESCRIPCION"/>
+    	<result property="Precio" column="PRO_PRECIO"/>
+    </resultMap>
+-->
+
+    <select id="ProductosListar" resultClass="pe.edu.upc.dew.veterinaria.model.Producto">
+         SELECT	prod.PRO_CODIGO as codigo, prod.PRO_NOMBRE as nombre,
+         prod.PRO_DESCRIPCION as descripcion, prod.PRO_PRECIO as precio
+         FROM	VETERINARIA.VET_PRODUCTOS prod
+         ORDER BY prod.PRO_CODIGO DESC
+    </select>
+<!-- FIN Lista de Productos -->
+
+
+<!-- Insertar Productos -->
+    <insert id="ProductoInsertar" parameterClass="pe.edu.upc.dew.veterinaria.model.Producto">
+          <selectKey keyProperty="codigo"  resultClass="long">
+                    SELECT VETERINARIA.SQ_ID_PRODUCTO.NEXTVAL FROM DUAL
+          </selectKey>
+                    INSERT INTO VET_PRODUCTOS
+                        (PRO_CODIGO,
+                        PRO_NOMBRE,
+                        PRO_DESCRIPCION,
+                        PRO_PRECIO)
+                    VALUES (#codigo#,
+                            #nombre#,
+                            #descripcion#,
+                            #precio#)
+   </insert>
+<!-- FIN Insertar Productos -->
+
+<!-- Update Productos -->
+    <update id="ProductoUpdate" parameterClass="pe.edu.upc.dew.veterinaria.model.Producto">
+            UPDATE VET_PRODUCTOS
+            SET PRO_NOMBRE = #nombre#,
+                PRO_DESCRIPCION = #descripcion#,
+                PRO_PRECIO = #precio#
+            WHERE PRO_CODIGO = #codigo#
+   </update>
+<!-- FIN Update Productos -->
+
+</sqlMap>
+
