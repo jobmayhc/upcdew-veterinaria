@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+    <form-beans>
+        <form-bean name="usuarioForm" type="pe.edu.upc.dew.veterinaria.form.UsuarioForm"/>        
+        <form-bean name="servicioForm" type="pe.edu.upc.dew.veterinaria.form.ServicioForm"/>
+        <form-bean name="reservaForm" type="pe.edu.upc.dew.veterinaria.form.ReservaForm"/>
+        <form-bean name="reservaGeneradaForm" type="pe.edu.upc.dew.veterinaria.form.ReservaGeneradaForm"/>
+        <form-bean name="usuarioLoginForm" type="pe.edu.upc.dew.veterinaria.form.UsuarioLoginForm"/>
+    </form-beans>
+    
+    <global-exceptions>
+    </global-exceptions>
+
+    <global-forwards>
+    </global-forwards>
+
+    <action-mappings>
+        <action  name="usuarioForm"
+                path="/usuario"
+                scope="request"
+                type="pe.edu.upc.dew.veterinaria.action.UsuarioAction">
+            <forward name="registrarUsuario" path="/vet_usuario_resultado.jsp"/>
+        </action>
+
+        <action  name="servicioForm"
+                path="/servicio"
+                scope="request"
+                type="pe.edu.upc.dew.veterinaria.action.ServicioAction">
+            <forward name="registrarServicio" path="/vet_servicio_resultado.jsp"/>
+        </action>
+
+        <action  name="formapagoForm"
+                path="/formapago"
+                scope="request"
+                type="pe.edu.upc.dew.veterinaria.action.ReservaAction">
+            <forward name="listarServicio" path="/vet_reserva.jsp"/>
+        </action>
+
+        <action  name="reservaForm"
+                path="/reserva"
+                scope="request"
+                type="pe.edu.upc.dew.veterinaria.action.ReservaGeneradaAction">
+            <forward name="reservaGenerada" path="/vet_reserva_generadas.jsp"/>
+        </action>
+
+        <action name="usuarioLoginForm"
+            path="/login"
+            scope="request"
+            type="pe.edu.upc.dew.veterinaria.action.UsuarioLoginAction">
+            <forward name="loginOK" path="/vet_forma_pago.jsp"/>
+            <forward name="loginNuevo" path="/vet_usuario.jsp"/>
+        </action-->
+        
+    </action-mappings>
+
+    <message-resources parameter="com/myapp/struts/ApplicationResource"/>
+  
+</struts-config>
