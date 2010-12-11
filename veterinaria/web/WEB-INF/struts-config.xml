@@ -54,7 +54,7 @@
             type="pe.edu.upc.dew.veterinaria.action.UsuarioLoginAction">
             <forward name="loginOK" path="/vet_forma_pago.jsp"/>
             <forward name="loginNuevo" path="/vet_usuario.jsp"/>
-        </action-->
+        </action>
         
     </action-mappings>
 
