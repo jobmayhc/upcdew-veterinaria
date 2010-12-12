@@ -50,6 +50,8 @@
     System.out.println(request.getAttribute("reservaGeneradaLista"));
     if(request.getAttribute("reservaGeneradaLista") != null){
      List<Producto> l = (List<Producto>)request.getAttribute("reservaGeneradaLista");
+     
+     session.setAttribute("listaServiciosReservados", l);
 
    for(int x=0; x<l.size(); x++){
        Producto oProducto = new Producto();
@@ -66,6 +68,23 @@
 
                     <% } }%>
 
+		</table>
+
+
+                <table
+                    <tr style="height: 50px;">
+                        <td colspan="4"></td>
+                    </tr>
+                    <tr style="height: 25px;" align="right">
+                        <td style="width:10%"></td>
+                        <td style="width:30%" colspan="2">
+
+                            <input id="btnReservar" name="btnReservar" type="submit" class="btn"
+                       style="width:150px; height:25px;" value="Reservar"/>
+
+                        </td>
+		        <td style="width:15%"></td>
+		    </tr>
 		</table>
 
 	</div>
