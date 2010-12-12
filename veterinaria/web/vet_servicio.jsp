@@ -64,6 +64,18 @@
             }
         }
 
+
+      function soloNumeros(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+
+         return true;
+      }
+
+
+
     </script>
 
     </head>
@@ -147,7 +159,7 @@
                 <span id="lblPrecio" style="width:80px;">Precio</span>
             </td>
             <td style="width:250px">
-                <input id="txtPrecio" name="txtPrecio" type="text" class="txtupper" style="width:200px;" />
+                <input id="txtPrecio" name="txtPrecio" type="text" class="txtupper" style="width:200px;" onkeypress="return soloNumeros(event);" />
                 <span id="valPrecios" style="color:red">*</span>
             </td>
             <td style="width:5px"></td>
