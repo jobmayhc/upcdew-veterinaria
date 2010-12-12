@@ -28,6 +28,4 @@ public class ProductoDAO {
         sqlMap.update("ProductoUpdate", oProducto);
     }
 
-   
-
 }
