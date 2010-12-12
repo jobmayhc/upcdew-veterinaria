@@ -52,8 +52,15 @@
             path="/login"
             scope="request"
             type="pe.edu.upc.dew.veterinaria.action.UsuarioLoginAction">
-            <forward name="loginOK" path="/vet_forma_pago.jsp"/>
-            <forward name="loginNuevo" path="/vet_usuario.jsp"/>
+            <forward name="registrarUsuario" path="/vet_usuario.jsp"/>
+            <forward name="permitircompra" path="/vet_forma_pago.jsp"/>
+        </action>
+
+        <action name="reservaFinal"
+            path="/reservafinal"
+            scope="request"
+            type="pe.edu.upc.dew.veterinaria.action.ReservaGeneradaFinalAction">
+            <forward name="reservaFinal" path="/vet_reserva_resultado.jsp"/>
         </action>
         
     </action-mappings>
