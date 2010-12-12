@@ -59,7 +59,8 @@ public class ProductosImplement {
         return exito;
     }
 
-   
+
+     /*
    public static void main (String ar []) throws ParseException{
         ProductosImplement oProductosImplement = new ProductosImplement();
         Producto oProducto = new Producto();
@@ -68,7 +69,7 @@ public class ProductosImplement {
          for (Producto e : list) {
             System.out.println(e.getNombre());
         }
-   }
+   }*/
 /*
     public static void main (String ar []) throws ParseException{
             ProductosImplement oProductosImplement = new ProductosImplement();
