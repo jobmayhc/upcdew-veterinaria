@@ -1,5 +1,7 @@
 package pe.edu.upc.dew.veterinaria.action;
 
+import java.util.ArrayList;
+import java.util.List;
 import pe.edu.upc.dew.veterinaria.model.Usuario;
 import pe.edu.upc.dew.veterinaria.form.UsuarioLoginForm;
 
@@ -32,11 +34,19 @@ public class UsuarioLoginAction extends Action {
         oUsuario.setPassword(oUsuarioForm.getTxtPassword());
 
         UsuariosImplement oUsuariosImplement = new UsuariosImplement();
-        oUsuariosImplement.UsuarioValida(oUsuario);
 
-        request.setAttribute("usuario", oUsuario);
+        List<Usuario> lstUsuario = new ArrayList<Usuario>();
+        
+        lstUsuario = oUsuariosImplement.UsuarioValida(oUsuario);
 
-        return mapping.findForward("registrarUsuario");
+        //if (lstUsuario.size()-1 >0){
+            request.setAttribute("usuario", oUsuario);
+            return mapping.findForward("permitircompra");
+        //}
+        //else{
+          //  return mapping.findForward("registrarUsuario");
+            
+        //}
 
     }
 }

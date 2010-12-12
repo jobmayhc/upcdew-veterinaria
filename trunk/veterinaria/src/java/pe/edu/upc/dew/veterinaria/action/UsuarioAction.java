@@ -15,7 +15,6 @@ import org.apache.struts.action.ActionMapping;
 import org.apache.struts.action.ActionForm;
 import pe.edu.upc.dew.veterinaria.service.UsuariosImplement;
 
-//public class UsuarioAction extends DispatchAction{
 public class UsuarioAction extends Action {
 
     @Override
@@ -32,19 +31,19 @@ public class UsuarioAction extends Action {
 
         oUsuario.setUsuario(oUsuarioForm.getTxtUsuario().toUpperCase());
         oUsuario.setPassword(oUsuarioForm.getTxtPassword());
+        oUsuario.setNombre(oUsuarioForm.getTxtNombre());
+        oUsuario.setApepaterno(oUsuarioForm.getTxtApePaterno());
+        oUsuario.setApematerno(oUsuarioForm.getTxtApeMaterno());
+        oUsuario.setDireccion(oUsuarioForm.getTxtDireccion());
+        oUsuario.setTelefono(oUsuarioForm.getTxtTelefono());
+        oUsuario.setEmail(oUsuarioForm.getTxtMail());
+        oUsuario.setFlagestado("A");
 
         UsuariosImplement oUsuariosImplement = new UsuariosImplement();
-        List<Usuario> lstUsuario = new ArrayList<Usuario>();
-
-        lstUsuario = oUsuariosImplement.UsuarioValida(oUsuario);
-
-        if(lstUsuario != null){
-                 request.setAttribute("usuariologin", oUsuario);
-                 return mapping.findForward("loginOK");
-            }
-        else
-            {
-                return mapping.findForward("loginNuevo");
-            }        
+        oUsuariosImplement.UsuarioInsertar(oUsuario);
+        
+        request.setAttribute("usuario", oUsuario);
+        return mapping.findForward("registrarUsuario");
+        
     }
 }
