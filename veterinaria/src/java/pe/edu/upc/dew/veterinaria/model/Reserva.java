@@ -7,6 +7,15 @@ public class Reserva {
     }
 
     private int codigo;
+    private String usuario;
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
     private String nroreserva;
     private String fecha;
     private Double subtotal;
