@@ -49,5 +49,31 @@
    </update>
 <!-- FIN Update Productos -->
 
+
+
+
+<!-- Inserta Reserva -->
+<insert id="ReservaInsertar" parameterClass="pe.edu.upc.dew.veterinaria.model.Reserva">
+          <selectKey keyProperty="codigo"  resultClass="long">
+                    SELECT VETERINARIA.SQ_ID_RESERVA.NEXTVAL FROM DUAL
+          </selectKey>
+                    INSERT INTO VET_RESERVA (res.RES_CODIGO, res.USU_CODIGO,
+                        res.RES_NRO_RESERVA,
+                        res.RES_SUBTOTAL,
+                        res.RES_IGV, res.RES_TOTAL)
+                    VALUES (#codigo#,
+                            #usuario#, 
+                            #codigo#,
+                            #subtotal#,
+                            #igv#,
+                            #total#)
+   </insert>
+
+
+
+
+
+
+
 </sqlMap>
 
